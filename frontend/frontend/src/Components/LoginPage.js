@@ -40,12 +40,38 @@ const LoginPage = ({ onLogin }) => {
         onChange={(e) => setPassword(e.target.value)}
       /><br />
       <button onClick={login}>Login</button>
+      <input
+        type="email"
+        placeholder="Enter admin email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      /><br />
+      <input
+        type="password"
+        placeholder="Enter password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      /><br />
+      <button onClick={login}>Login</button>
+      <input
+        type="email"
+        placeholder="Enter admin email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      /><br />
+      <input
+        type="password"
+        placeholder="Enter password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      /><br />
+      <button onClick={login}>Login</button>
     </div>
   );
 };
 
 export default LoginPage;
 
-
+fehiurhkerjrfoinrenjgiorejoirehfirekjhvjkrghn
 
 
